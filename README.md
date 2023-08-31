@@ -1,6 +1,6 @@
-![Screenshot 2023-08-31 084722](https://github.com/sakthivel005/Experiment--02-Implementation-of-combinational-logic-/assets/120550359/b8944a10-5d47-420a-92f5-4ada77eba291)![Screenshot 2023-08-31 084722](https://github.com/sakthivel005/Experiment--02-Implementation-of-combinational-logic-/assets/120550359/15280e50-2f57-4b80-8687-67fc77f07adb)## Name:Sakthivel R
+## Name:Sakthivel R
 ## Reg No:212222100044
-# Experiment--02-Implementation-of-combinational-logic
+## Experiment--02-Implementation-of-combinational-logic
 Implementation of combinational logic gates
  
 ## AIM:
