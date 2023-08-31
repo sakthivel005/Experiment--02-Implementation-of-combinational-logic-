@@ -1,4 +1,4 @@
-## Name:Sakthivel R
+![Screenshot 2023-08-31 084722](https://github.com/sakthivel005/Experiment--02-Implementation-of-combinational-logic-/assets/120550359/b8944a10-5d47-420a-92f5-4ada77eba291)![Screenshot 2023-08-31 084722](https://github.com/sakthivel005/Experiment--02-Implementation-of-combinational-logic-/assets/120550359/15280e50-2f57-4b80-8687-67fc77f07adb)## Name:Sakthivel R
 ## Reg No:212222100044
 # Experiment--02-Implementation-of-combinational-logic
 Implementation of combinational logic gates
@@ -55,21 +55,25 @@ endmodule
 
 ```
 
-## RTL realization
+## Truth Table:
+
+
+
+![Screenshot 2023-08-31 192940](https://github.com/sakthivel005/Experiment--02-Implementation-of-combinational-logic-/assets/120550359/282b4ab1-d975-4294-bbf0-e2da7ddf4355)
+
+
+
+
+
+## RTL realization:
+![Screenshot 2023-08-25 083711](https://github.com/sakthivel005/Experiment--02-Implementation-of-combinational-logic-/assets/120550359/b10909a4-1640-42c5-8d1a-476cf91193e0)
 
 
 ## Output:
 
 
+![Screenshot 2023-08-31 192732](https://github.com/sakthivel005/Experiment--02-Implementation-of-combinational-logic-/assets/120550359/f01c253e-5c73-4286-8c32-c2cffbc7a8db)
 
-## RTL
-![Screenshot 2023-08-25 083711](https://github.com/sakthivel005/Experiment--02-Implementation-of-combinational-logic-/assets/120550359/b10909a4-1640-42c5-8d1a-476cf91193e0)
-
-
-
-## Timing Diagram
-
-![Screenshot 2023-08-25 084215](https://github.com/sakthivel005/Experiment--02-Implementation-of-combinational-logic-/assets/120550359/a5e03421-1818-4796-b12c-9095d7374992)
 
 
 ## Result:
