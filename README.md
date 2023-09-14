@@ -35,44 +35,64 @@ F=((C'.B.A)'(D'.C.A)'(C.B'.A)')'
 
 ## Program:
 ```
-Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
+
 Developed by: Sakthivel R
 RegisterNumber:212222100044
 F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
-module ex2(A,B,C,D,F1);
+
+module imp(A,B,C,D,F1);
 input A,B,C,D;
 output F1;
-wire x1,x2,x3,x4,x5;
-assign x1 = (~A & ~B & ~C & ~D);
-assign x2 = (A & ~C & ~D);
-assign x3 = (~B & C & ~D);
-assign x4 = (~A & B & C & D);
-assign x5 = (B & ~C & D);
-assign F1 = x1 | x2 | x3 | x4 | x5;
+wire p,q,r,s,t;
+assign p = (~A & ~B & ~C & ~D);
+assign q = (A & ~C & ~D);
+assign r = (~B & C & ~D);
+assign s = (~A & B & C & D);
+assign t = (B & ~C & D);
+assign F1 = p | q | r | s | t;
+endmodule
+
+F2=xy’z+x’y’z+w’xy+wx’y+wxy
+
+module imp(w,x,y,z,F2);
+input w,x,y,z;
+output F2;
+wire p,q,r,s,t;
+assign p= (x & ~y & z);
+assign q= (~x & ~y & z);
+assign r= (~w & x & y);
+assign s= (w & ~x & y);
+assign t= (w & x & y);
+assign F2= p | q | r | s | t;
 endmodule
 
 
 
 ```
 
-## Truth Table:
-
-
-
-![Screenshot 2023-08-31 192940](https://github.com/sakthivel005/Experiment--02-Implementation-of-combinational-logic-/assets/120550359/282b4ab1-d975-4294-bbf0-e2da7ddf4355)
-
-
-
-
-
-## RTL realization:
-![Screenshot 2023-08-25 083711](https://github.com/sakthivel005/Experiment--02-Implementation-of-combinational-logic-/assets/120550359/b10909a4-1640-42c5-8d1a-476cf91193e0)
-
-
+## RTL realization
 ## Output:
+## Logical Diagram:
+![Screenshot 2023-09-14 180918](https://github.com/sakthivel005/Experiment--02-Implementation-of-combinational-logic-/assets/120550359/441a00b6-57cb-4c4c-977a-0e10ebe523d1)
 
 
-![Screenshot 2023-08-31 192732](https://github.com/sakthivel005/Experiment--02-Implementation-of-combinational-logic-/assets/120550359/f01c253e-5c73-4286-8c32-c2cffbc7a8db)
+## RTL realization
+## For F1
+
+![Screenshot 2023-09-14 180938](https://github.com/sakthivel005/Experiment--02-Implementation-of-combinational-logic-/assets/120550359/88797754-8b6c-4ed0-97c7-5eb42c8deb4e)
+
+## For F2
+![Screenshot 2023-09-14 180952](https://github.com/sakthivel005/Experiment--02-Implementation-of-combinational-logic-/assets/120550359/96449c16-9d39-4ec0-94bb-f4f654fe1eed)
+
+
+## Timing Diagram
+## For F1
+![Screenshot 2023-09-14 181010](https://github.com/sakthivel005/Experiment--02-Implementation-of-combinational-logic-/assets/120550359/703bdfd0-10a6-4baa-8ef0-d39bfe90cfb7)
+
+
+## For F2
+![Screenshot 2023-09-14 181025](https://github.com/sakthivel005/Experiment--02-Implementation-of-combinational-logic-/assets/120550359/3d5109fa-ef52-4715-8f59-45cbe5af473a)
+
 
 
 
