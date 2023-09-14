@@ -35,8 +35,8 @@ F=((C'.B.A)'(D'.C.A)'(C.B'.A)')'
 
 ## Program:
 ## Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
-Developed by: Sakthivel R
-RegisterNumber:212222100044
+## Developed by: Sakthivel R
+## RegisterNumber:212222100044
 
 ```
 F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
